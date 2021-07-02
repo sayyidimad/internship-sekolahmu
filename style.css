@@ -1,0 +1,94 @@
+body {
+    font-family: "DM Serif Text", serif;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: 0px;
+}
+
+p {
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.25em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+a {
+    color: black;
+}
+
+#topNav {
+    background-color: #6a1b9a;
+    margin-bottom: 32px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#topNav a {
+    text-decoration: none;
+    color: white;
+    padding: 2em 3em;
+}
+
+#topNav a:hover {
+    background-color: #38006b;
+}
+
+#about {
+    background-color: #eeeeee;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    margin: -32px 0px;
+    padding: 100px;
+}
+
+#about h3 {
+    color: gray;
+}
+
+#accomplishments {
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    margin: -32px 0px;
+    padding: 100px;
+}
+
+@media screen and (max-width: 900px) {
+    #topNav a {
+     padding-top: .5em;
+     padding-bottom: .5em;
+     display: block;
+    }
+
+    #topNav {
+     padding-top: 0px;
+     padding-bottom: 0px;
+    }
+
+    #about, #accomplishments {
+     padding: 40px;
+    }
+}
+
+#footer {
+    background-color: #9b4dcb;
+    padding-bottom: 2em;
+    color: black;
+}
+
+#footer img {
+    width: 64px;
+    padding: 16px;
+}
